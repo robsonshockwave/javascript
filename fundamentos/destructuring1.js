@@ -11,6 +11,8 @@ const pessoa = {
 
 const { nome, idade } = pessoa
 console.log(nome, idade)
+console.log(typeof nome)
+console.log(nome)
 
 const { nome: n, idade: i} = pessoa
 console.log(n, i) //criou variaveis a atribuiu a elas o valor de nome e idade

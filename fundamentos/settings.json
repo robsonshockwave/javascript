@@ -1,0 +1,19 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "phpcs.executablePath": "C:\\Users\\robso\\.composer\\vendor\\bin\\phpcs",
+    "files.autoSave": "off",
+    "window.zoomLevel": -1,
+    "C_Cpp.updateChannel": "Insiders",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "emmet.syntaxProfiles": {
+
+    
+    },
+
+    "workbench.colorTheme": "Dark Knight Rises",
+    "vscode_custom_css.imports": [
+        "file:///C:/Users/robso/the-dark-knight.css"
+    ],
+    "vscode_custom_css.policy": true
+
+}

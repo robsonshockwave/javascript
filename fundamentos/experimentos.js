@@ -34,9 +34,9 @@ this.d = false
 this.e = 'teste'
 console.log(module.exports) //vai retornar um objeto com os valores de c, d e e
 
-//module.exports = { e: 456, f: false, g: 'teste' } //normal no NodeJS
+//module.exports = { e: 456, f: false, g: 'teste' } ₢₢₢₢₢₢//normal no NodeJS
 
 abc = 3 //criando uma variavel maluca: sem var e let!
 console.log(global.abc) //nunca use isso, pelamor
 
-//Dois principios, 1º entender o runtime e 2º fugir do escopo global, mas caso precisar sempre toque a partir de um objeto colocando as coisas
+//Dois principios, 1º entender o runtime e 2º fugir do escopo global, mas caso precisar sempre toque a partir de um objeto colocando as coisas₢₢₢
