@@ -1,6 +1,6 @@
 const fabricantes = ["Chevrolet", "BMW", "Ferrari"]
 
-function imprimir(nome, indice) {
+function imprimir(nome, indice) { //no forEach primeiro ele sempre vai receber o valor e dps o indice
     console.log(`${indice + 1}. ${nome}`)
 }
 
