@@ -19,6 +19,7 @@ Object.entries(pessoa).forEach(([chave, valor]) => {
 
 //definindo a propriedade de um objeto
 //nela pode definir algumas caracteristicas da propriedade, se pode ou nao ser alterada, se pode ficar visivel ou n quando fizer Object.keys, entre outros
+//pode colocar mais um atributo no objeto e um valor para o mesmo
 Object.defineProperty(pessoa, 'dataNascimento', {
     enumerable: true, //pra saber se pode mostrar a chave, vai deixar
     writable: false, //se pode ser alterada, n vai deixar
