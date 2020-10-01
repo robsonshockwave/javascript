@@ -1,4 +1,4 @@
-const raio = 5.6
+const raio = 5.6 //PI é pi, pow é exponenciação
 const area = Math.PI * Math.pow(raio, 2)
 
 console.log(area)

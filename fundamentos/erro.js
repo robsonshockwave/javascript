@@ -12,7 +12,7 @@ function tratarErroELancar(erro) {
 
 function imprimirNomeGritado(obj) {
     try { //bloco que potencialmente pode gerar algum tipo de erro ou problema
-        console.log(obj.name.toUpperCase() + '!!!') //vai converter todas letras em maiúsculas
+        console.log(obj.nAme.toUpperCase() + '!!!') //vai converter todas letras em maiúsculas
     } catch (e) { //para tratar ou mostrar o erro, sinalizar o erro, pode lançar um hash para q o usário mande e o dev descubra o erro
         tratarErroELancar(e)
     } finally {

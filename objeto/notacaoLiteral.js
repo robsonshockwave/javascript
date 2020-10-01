@@ -13,7 +13,7 @@ const nomeAtributo = 'nota'
 const valorAtributo = 7.87
 
 const obj3 = {}
-obj[nomeAtributo] = valorAtributo
+obj3[nomeAtributo] = valorAtributo
 console.log(obj3)
 //tbm daria certo se fizesse assim
 const obj4 = {[nomeAtributo]: valorAtributo}

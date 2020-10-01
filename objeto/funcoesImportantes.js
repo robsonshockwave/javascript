@@ -35,7 +35,7 @@ console.log(Object.keys(pessoa)) //vai imprimir, pois o enumerable está true
 const dest = { a: 1}
 const o1 = { b: 2 }
 const o2 = { c: 3, a: 4 }
-const obj = Object.assign(dest, o1, o2) //.assin vai fazer o o1 e o2 concatenar com dest
+const obj = Object.assign(dest, o1, o2) //.assign vai fazer o o1 e o2 concatenar com dest
                                         //o valor de a: será sobrescrito pois ele já existe em dest
 console.log(obj)
 
